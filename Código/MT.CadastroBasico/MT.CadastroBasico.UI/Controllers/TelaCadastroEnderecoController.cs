@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MT.CadastroBasico.UI.Controllers
 {
-    class TelaCadastroEnderecoController
+    public class TelaCadastroEnderecoController
     {
     }
 }
