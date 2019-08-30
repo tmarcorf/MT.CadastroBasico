@@ -1,0 +1,9 @@
+C:\Users\marco.felix\Documents\GitHub\MT.CadastroBasico\Código\MT.CadastroBasico\MT.CadastroBasico.UI\bin\Debug\MT.CadastroBasico.UI.exe.config
+C:\Users\marco.felix\Documents\GitHub\MT.CadastroBasico\Código\MT.CadastroBasico\MT.CadastroBasico.UI\bin\Debug\MT.CadastroBasico.UI.exe
+C:\Users\marco.felix\Documents\GitHub\MT.CadastroBasico\Código\MT.CadastroBasico\MT.CadastroBasico.UI\bin\Debug\MT.CadastroBasico.UI.pdb
+C:\Users\marco.felix\Documents\GitHub\MT.CadastroBasico\Código\MT.CadastroBasico\MT.CadastroBasico.UI\obj\Debug\MT.CadastroBasico.UI.csprojAssemblyReference.cache
+C:\Users\marco.felix\Documents\GitHub\MT.CadastroBasico\Código\MT.CadastroBasico\MT.CadastroBasico.UI\obj\Debug\MT.CadastroBasico.UI.Properties.Resources.resources
+C:\Users\marco.felix\Documents\GitHub\MT.CadastroBasico\Código\MT.CadastroBasico\MT.CadastroBasico.UI\obj\Debug\MT.CadastroBasico.UI.csproj.GenerateResource.cache
+C:\Users\marco.felix\Documents\GitHub\MT.CadastroBasico\Código\MT.CadastroBasico\MT.CadastroBasico.UI\obj\Debug\MT.CadastroBasico.UI.csproj.CoreCompileInputs.cache
+C:\Users\marco.felix\Documents\GitHub\MT.CadastroBasico\Código\MT.CadastroBasico\MT.CadastroBasico.UI\obj\Debug\MT.CadastroBasico.UI.exe
+C:\Users\marco.felix\Documents\GitHub\MT.CadastroBasico\Código\MT.CadastroBasico\MT.CadastroBasico.UI\obj\Debug\MT.CadastroBasico.UI.pdb
