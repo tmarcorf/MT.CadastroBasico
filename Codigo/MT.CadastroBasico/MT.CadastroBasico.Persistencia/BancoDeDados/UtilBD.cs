@@ -14,17 +14,17 @@ namespace MT.CadastroBasico.Persistencia.BancoDeDados
         /// <summary>
         /// A conexão com o banco.
         /// </summary>
-        private static SqlConnection Conexao = new SqlConnection();
+        public static SqlConnection Conexao = new SqlConnection();
 
         /// <summary>
         /// O comando a ser executado.
         /// </summary>
-        private static SqlCommand Comando = new SqlCommand();
+        public static SqlCommand Comando = new SqlCommand();
 
         /// <summary>
         /// O parâmetro do comando.
         /// </summary>
-        private static SqlParameter Parametro = new SqlParameter();
+        public static SqlParameter Parametro = new SqlParameter();
 
         /// <summary>
         /// Obtém a conexão com o banco.
