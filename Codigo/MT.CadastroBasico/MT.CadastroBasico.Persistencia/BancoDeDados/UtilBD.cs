@@ -30,7 +30,7 @@ namespace MT.CadastroBasico.Persistencia.BancoDeDados
         /// Obtém a conexão com o banco.
         /// </summary>
         /// <returns>A conexão com o banco.</returns>
-        public static SqlConnection ObtenhaSqlConnection()
+        private static SqlConnection ObtenhaSqlConnection()
         {
             try
             {

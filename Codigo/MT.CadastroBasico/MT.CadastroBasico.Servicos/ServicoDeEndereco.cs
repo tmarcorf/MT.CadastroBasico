@@ -20,6 +20,9 @@ namespace MT.CadastroBasico.Servicos
             _repositorioDeEndereco = new RepositorioDeEndereco();
         }
 
-        public Endereco
+        public Endereco Consulte(int identificador)
+        {
+
+        }
     }
 }
