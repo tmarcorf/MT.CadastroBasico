@@ -14,17 +14,17 @@ namespace MT.CadastroBasico.Persistencia.BancoDeDados
         /// <summary>
         /// A conexão com o banco.
         /// </summary>
-        public static SqlConnection Conexao = new SqlConnection();
+        private static SqlConnection Conexao = new SqlConnection();
 
         /// <summary>
         /// O comando a ser executado.
         /// </summary>
-        public static SqlCommand Comando = new SqlCommand();
+        private static SqlCommand Comando = new SqlCommand();
 
         /// <summary>
         /// O parâmetro do comando.
         /// </summary>
-        public static SqlParameter Parametro = new SqlParameter();
+        private static SqlParameter Parametro = new SqlParameter();
 
         /// <summary>
         /// Obtém a conexão com o banco.
@@ -127,7 +127,7 @@ namespace MT.CadastroBasico.Persistencia.BancoDeDados
         /// </summary>
         /// <param name="sql">O texto do comando sql.</param>
         /// <returns>Um DataTable com o resultado da consulta.</returns>
-        public DataTable ExecutaConsulta(string sql)
+        public static DataTable ExecuteConsulta(string sql)
         {
             try
             {
@@ -156,7 +156,7 @@ namespace MT.CadastroBasico.Persistencia.BancoDeDados
         /// </summary>
         /// <param name="sql">A string com o texto do comando.</param>
         /// <returns>A quantidade de linhas afetadas.</returns>
-        public int ExecutaAtualizacao(string sql)
+        public static int ExecutaAtualizacao(string sql)
         {
             try
             {

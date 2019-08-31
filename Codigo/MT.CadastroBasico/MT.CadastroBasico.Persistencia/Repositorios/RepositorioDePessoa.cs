@@ -8,6 +8,6 @@ namespace MT.CadastroBasico.Persistencia.Repositorios
 {
     public class RepositorioDePessoa
     {
-
+        
     }
 }
