@@ -1,0 +1,6 @@
+C:\Users\marco\Documents\GitHub\Repositórios\MT.CadastroBasico\Codigo\MT.CadastroBasico\MT.CadastroBasico.Controllers\bin\Debug\MT.CadastroBasico.Controllers.dll
+C:\Users\marco\Documents\GitHub\Repositórios\MT.CadastroBasico\Codigo\MT.CadastroBasico\MT.CadastroBasico.Controllers\bin\Debug\MT.CadastroBasico.Controllers.pdb
+C:\Users\marco\Documents\GitHub\Repositórios\MT.CadastroBasico\Codigo\MT.CadastroBasico\MT.CadastroBasico.Controllers\obj\Debug\MT.CadastroBasico.Controllers.csprojAssemblyReference.cache
+C:\Users\marco\Documents\GitHub\Repositórios\MT.CadastroBasico\Codigo\MT.CadastroBasico\MT.CadastroBasico.Controllers\obj\Debug\MT.CadastroBasico.Controllers.csproj.CoreCompileInputs.cache
+C:\Users\marco\Documents\GitHub\Repositórios\MT.CadastroBasico\Codigo\MT.CadastroBasico\MT.CadastroBasico.Controllers\obj\Debug\MT.CadastroBasico.Controllers.dll
+C:\Users\marco\Documents\GitHub\Repositórios\MT.CadastroBasico\Codigo\MT.CadastroBasico\MT.CadastroBasico.Controllers\obj\Debug\MT.CadastroBasico.Controllers.pdb

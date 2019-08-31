@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MT.CadastroBasico.UI.Controllers
+namespace MT.CadastroBasico.Controllers.TelaControllers
 {
-    public class TelaCadastroEnderecoController
+    public class TelaInicialPessoaController
     {
+
     }
 }

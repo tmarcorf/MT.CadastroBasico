@@ -1,4 +1,5 @@
 ﻿using MT.CadastroBasico.UI.Views;
+using MT.CadastroBasico.UI.Views.Endereco;
 using System;
 using System.Collections.Generic;
 using System.Linq;

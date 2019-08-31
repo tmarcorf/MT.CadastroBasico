@@ -46,35 +46,33 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Controllers\TelaCadastroEnderecoController.cs" />
-    <Compile Include="Controllers\TelaCadastroPessoaController.cs" />
-    <Compile Include="Controllers\TelaInicialController.cs" />
-    <Compile Include="Controllers\TelaInicialEnderecoController.cs" />
-    <Compile Include="Controllers\TelaInicialPessoaController.cs" />
+    <Compile Include="Base\FormularioBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Views\TelaCadastroEnderecoView.cs">
+    <Compile Include="Views\Endereco\TelaCadastroEnderecoView.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Views\TelaCadastroEnderecoView.Designer.cs">
+    <Compile Include="Views\Endereco\TelaCadastroEnderecoView.Designer.cs">
       <DependentUpon>TelaCadastroEnderecoView.cs</DependentUpon>
     </Compile>
-    <Compile Include="Views\TelaCadastroPessoaView.cs">
+    <Compile Include="Views\Pessoa\TelaCadastroPessoaView.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Views\TelaCadastroPessoaView.Designer.cs">
+    <Compile Include="Views\Pessoa\TelaCadastroPessoaView.Designer.cs">
       <DependentUpon>TelaCadastroPessoaView.cs</DependentUpon>
     </Compile>
-    <Compile Include="Views\TelaInicialEnderecoView.cs">
+    <Compile Include="Views\Endereco\TelaInicialEnderecoView.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Views\TelaInicialEnderecoView.Designer.cs">
+    <Compile Include="Views\Endereco\TelaInicialEnderecoView.Designer.cs">
       <DependentUpon>TelaInicialEnderecoView.cs</DependentUpon>
     </Compile>
-    <Compile Include="Views\TelaInicialPessoaView.cs">
+    <Compile Include="Views\Pessoa\TelaInicialPessoaView.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Views\TelaInicialPessoaView.Designer.cs">
+    <Compile Include="Views\Pessoa\TelaInicialPessoaView.Designer.cs">
       <DependentUpon>TelaInicialPessoaView.cs</DependentUpon>
     </Compile>
     <Compile Include="Views\TelaInicialView.cs">
@@ -92,6 +90,15 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Views\Endereco\TelaCadastroEnderecoView.resx">
+      <DependentUpon>TelaCadastroEnderecoView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Endereco\TelaInicialEnderecoView.resx">
+      <DependentUpon>TelaInicialEnderecoView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\TelaInicialView.resx">
+      <DependentUpon>TelaInicialView.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -104,6 +111,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MT.CadastroBasico.Controllers\MT.CadastroBasico.Controllers.csproj">
+      <Project>{9189197B-725F-4002-9442-C74DEA09D85A}</Project>
+      <Name>MT.CadastroBasico.Controllers</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

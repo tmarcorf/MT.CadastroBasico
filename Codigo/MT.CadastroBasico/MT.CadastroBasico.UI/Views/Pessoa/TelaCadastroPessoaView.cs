@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MT.CadastroBasico.UI.Base;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -8,11 +9,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace MT.CadastroBasico.UI.Views
+namespace MT.CadastroBasico.UI.Views.Pessoa
 {
-    public partial class TelaInicialEnderecoView : Form
+    public partial class TelaCadastroPessoaView : FormularioBase
     {
-        public TelaInicialEnderecoView()
+        public TelaCadastroPessoaView()
         {
             InitializeComponent();
         }

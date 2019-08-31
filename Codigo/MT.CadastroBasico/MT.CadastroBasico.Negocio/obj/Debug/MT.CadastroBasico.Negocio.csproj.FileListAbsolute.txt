@@ -4,3 +4,9 @@ C:\Users\marco.felix\Documents\GitHub\MT.CadastroBasico\Código\MT.CadastroBasic
 C:\Users\marco.felix\Documents\GitHub\MT.CadastroBasico\Código\MT.CadastroBasico\MT.CadastroBasico.Negocio\obj\Debug\MT.CadastroBasico.Negocio.csproj.CoreCompileInputs.cache
 C:\Users\marco.felix\Documents\GitHub\MT.CadastroBasico\Código\MT.CadastroBasico\MT.CadastroBasico.Negocio\obj\Debug\MT.CadastroBasico.Negocio.dll
 C:\Users\marco.felix\Documents\GitHub\MT.CadastroBasico\Código\MT.CadastroBasico\MT.CadastroBasico.Negocio\obj\Debug\MT.CadastroBasico.Negocio.pdb
+C:\Users\marco\Documents\GitHub\Repositórios\MT.CadastroBasico\Codigo\MT.CadastroBasico\MT.CadastroBasico.Negocio\bin\Debug\MT.CadastroBasico.Negocio.dll
+C:\Users\marco\Documents\GitHub\Repositórios\MT.CadastroBasico\Codigo\MT.CadastroBasico\MT.CadastroBasico.Negocio\bin\Debug\MT.CadastroBasico.Negocio.pdb
+C:\Users\marco\Documents\GitHub\Repositórios\MT.CadastroBasico\Codigo\MT.CadastroBasico\MT.CadastroBasico.Negocio\obj\Debug\MT.CadastroBasico.Negocio.csprojAssemblyReference.cache
+C:\Users\marco\Documents\GitHub\Repositórios\MT.CadastroBasico\Codigo\MT.CadastroBasico\MT.CadastroBasico.Negocio\obj\Debug\MT.CadastroBasico.Negocio.csproj.CoreCompileInputs.cache
+C:\Users\marco\Documents\GitHub\Repositórios\MT.CadastroBasico\Codigo\MT.CadastroBasico\MT.CadastroBasico.Negocio\obj\Debug\MT.CadastroBasico.Negocio.dll
+C:\Users\marco\Documents\GitHub\Repositórios\MT.CadastroBasico\Codigo\MT.CadastroBasico\MT.CadastroBasico.Negocio\obj\Debug\MT.CadastroBasico.Negocio.pdb

@@ -1,6 +1,6 @@
-﻿namespace MT.CadastroBasico.UI.Views
+﻿namespace MT.CadastroBasico.UI.Views.Pessoa
 {
-    partial class TelaInicialPessoaView
+    partial class TelaCadastroPessoaView
     {
         /// <summary>
         /// Required designer variable.
@@ -31,7 +31,7 @@
             this.components = new System.ComponentModel.Container();
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "TelaInicialPessoaView";
+            this.Text = "TelaCadastroPessoaView";
         }
 
         #endregion
