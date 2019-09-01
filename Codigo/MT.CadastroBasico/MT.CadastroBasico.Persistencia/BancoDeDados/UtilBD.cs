@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace MT.CadastroBasico.Persistencia.BancoDeDados
 {
-    public class UtilBD
+    public static class UtilBD
     {
         /// <summary>
         /// A conexão com o banco.
@@ -35,7 +35,7 @@ namespace MT.CadastroBasico.Persistencia.BancoDeDados
             try
             {
                 string stringDeConexao = ConfigurationManager
-                .ConnectionStrings["NomeDaConnectionString"].ConnectionString;
+                .ConnectionStrings[ConstantesBD.STRING_DE_CONEXAO].ConnectionString;
 
                 Conexao = new SqlConnection(stringDeConexao);
                 
@@ -55,7 +55,7 @@ namespace MT.CadastroBasico.Persistencia.BancoDeDados
         /// <summary>
         /// Abre a conexão com o banco.
         /// </summary>
-        public void Open()
+        public static void Open()
         {
             Conexao.Open();
         }
@@ -63,7 +63,7 @@ namespace MT.CadastroBasico.Persistencia.BancoDeDados
         /// <summary>
         /// Fecha a conexão com o banco.
         /// </summary>
-        public void Close()
+        public static void Close()
         {
             Conexao.Close();
         }
@@ -75,7 +75,7 @@ namespace MT.CadastroBasico.Persistencia.BancoDeDados
         /// <param name="tipo">O tipo do parâmetro.</param>
         /// <param name="tamanho">O tamanho do parâmetro.</param>
         /// <param name="valor">O valor do parâmetro.</param>
-        public void AdicionarParametro(string nome, SqlDbType tipo, int tamanho, object valor)
+        public static void AdicionarParametro(string nome, SqlDbType tipo, int tamanho, object valor)
         {
             Parametro = new SqlParameter();
             Parametro.ParameterName = nome;
@@ -92,7 +92,7 @@ namespace MT.CadastroBasico.Persistencia.BancoDeDados
         /// <param name="nome">O nome da coluna no banco.</param>
         /// <param name="tipo">O tipo do parâmetro.</param>
         /// <param name="valor">O valor do parâmetro.</param>
-        public void AdicionarParametro(string nome, SqlDbType tipo, object valor)
+        public static void AdicionarParametro(string nome, SqlDbType tipo, object valor)
         {
             Parametro = new SqlParameter();
             Parametro.ParameterName = nome;
@@ -106,7 +106,7 @@ namespace MT.CadastroBasico.Persistencia.BancoDeDados
         /// Remove um parâmetro do comando.
         /// </summary>
         /// <param name="pNome">O nome do parâmetro.</param>
-        public void RemoverParametro(string pNome)
+        public static void RemoverParametro(string pNome)
         {
             if (Comando.Parameters.Contains(pNome))
             {
@@ -117,7 +117,7 @@ namespace MT.CadastroBasico.Persistencia.BancoDeDados
         /// <summary>
         /// Limpa os parâmetros do comando.
         /// </summary>
-        public void LimparParametros()
+        public static void LimpeParametros()
         {
             Comando.Parameters.Clear();
         }
@@ -173,6 +173,14 @@ namespace MT.CadastroBasico.Persistencia.BancoDeDados
             {
                 throw excecao;
             }
+        }
+
+        /// <summary>
+        /// Libera os recursos de memória utilizados.
+        /// </summary>
+        public static void Dispose()
+        {
+            Conexao.Dispose();
         }
     }
 }

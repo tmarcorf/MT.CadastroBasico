@@ -19,10 +19,23 @@ namespace MT.CadastroBasico.Persistencia.BancoDeDados
         #region ENDERECO
 
         /// <summary>
-        /// Obtém todos os endereços do banco.
+        /// SQL que obtém um endereço conforme o identificador.
         /// </summary>
-        public static string SQL_LISTA_DE_ENDERECO = @"SELECT IDENDERECO, DESCRICAO, LOGRADOURO, BAIRRO, CIDADE
-                                                       FROM CB_ENDERECO";
+        public static string SQL_CONSULTE_ENDERECO = @"SELECT IDENDERECO, DESCRICAO, LOGRADOURO, BAIRRO, CIDADE
+                                                       FROM CB_ENDERECO
+                                                       WHERE IDENDERECO = @IDENDERECO";
+
+        /// <summary>
+        /// SQL que obtém todos os endereços do banco.
+        /// </summary>
+        public static string SQL_CONSULTE_LISTA_DE_ENDERECO = @"SELECT IDENDERECO, DESCRICAO, LOGRADOURO, BAIRRO, CIDADE
+                                                                FROM CB_ENDERECO";
+
+        /// <summary>
+        /// SQL que insere um endereço.
+        /// </summary>
+        public static string SQL_INSIRA_ENDERECO = @"INSERT INTO CB_ENDERECO (DESCRICAO, LOGRADOURO, BAIRRO, CIDADE)
+                                                     VALUES (@DESCRICAO, @LOGRADOURO, @BAIRRO, @CIDADE)";
 
         #endregion
     }
