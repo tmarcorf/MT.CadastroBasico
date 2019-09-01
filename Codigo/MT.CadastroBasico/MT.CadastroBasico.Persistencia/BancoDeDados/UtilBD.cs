@@ -155,7 +155,7 @@ namespace MT.CadastroBasico.Persistencia.BancoDeDados
         /// </summary>
         /// <param name="sql">A string com o texto do comando.</param>
         /// <returns>A quantidade de linhas afetadas.</returns>
-        public static int ExecutaAtualizacao(string sql)
+        public static int ExecuteAtualizacao(string sql)
         {
             try
             {

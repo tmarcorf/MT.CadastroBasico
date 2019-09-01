@@ -40,9 +40,10 @@ namespace MT.CadastroBasico.UI.Controllers
             var gridDeEnderecos = _tela.ObtenhaGridListaDeEnderecos();
             gridDeEnderecos.Columns.Clear();
 
-            AdicioneColunaCheckBox(gridDeEnderecos);
-
             AdicioneColunaTexto(COLUNA_ID, COLUNA_ID, gridDeEnderecos);
+
+            //AdicioneColunaCheckBox(gridDeEnderecos);
+
             AdicioneColunaTexto(COLUNA_DESCRICAO, "Descrição", gridDeEnderecos);
             AdicioneColunaTexto(COLUNA_LOGRADOURO, COLUNA_LOGRADOURO, gridDeEnderecos);
             AdicioneColunaTexto(COLUNA_BAIRRO, COLUNA_BAIRRO, gridDeEnderecos);
@@ -58,11 +59,12 @@ namespace MT.CadastroBasico.UI.Controllers
             gridDeEnderecos.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             gridDeEnderecos.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.None;
 
-            this.PreenchaGridDeListaDeEnderecos(gridDeEnderecos);
+            AtualizeGridListaDeEnderecos(gridDeEnderecos);
         }
 
-        private void PreenchaGridDeListaDeEnderecos(DataGridView gridDeEnderecos)
+        public void AtualizeGridListaDeEnderecos(DataGridView gridDeEnderecos)
         {
+            gridDeEnderecos.Rows.Clear();
             var listaDeEnderecos = _servicoDeEndereco.ConsultarLista();
 
             for (int contador = 0; contador < listaDeEnderecos.Count; contador++)

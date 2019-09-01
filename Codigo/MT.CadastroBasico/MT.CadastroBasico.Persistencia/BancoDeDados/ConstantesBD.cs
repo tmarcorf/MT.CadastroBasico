@@ -37,6 +37,12 @@ namespace MT.CadastroBasico.Persistencia.BancoDeDados
         public static string SQL_INSIRA_ENDERECO = @"INSERT INTO CB_ENDERECO (DESCRICAO, LOGRADOURO, BAIRRO, CIDADE)
                                                      VALUES (@DESCRICAO, @LOGRADOURO, @BAIRRO, @CIDADE)";
 
+        /// <summary>
+        /// Deleta uma lista de endereços.
+        /// </summary>
+        public static string SQL_EXCLUA_LISTA = @"DELETE FROM CB_ENDERECO
+                                                  WHERE IDENDERECO IN (@IDENDERECO)";
+
         #endregion
     }
 }

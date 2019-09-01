@@ -63,6 +63,7 @@
             this.btnRemover.TabIndex = 2;
             this.btnRemover.Text = "Remover";
             this.btnRemover.UseVisualStyleBackColor = true;
+            this.btnRemover.Click += new System.EventHandler(this.EventoClickBotaoRemover);
             // 
             // btnFechar
             // 
@@ -83,6 +84,7 @@
             this.gridListaDeEnderecos.Name = "gridListaDeEnderecos";
             this.gridListaDeEnderecos.Size = new System.Drawing.Size(579, 255);
             this.gridListaDeEnderecos.TabIndex = 4;
+            this.gridListaDeEnderecos.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.EventoClickCelulaDaGridDeEnderecos);
             // 
             // TelaInicialEnderecoView
             // 

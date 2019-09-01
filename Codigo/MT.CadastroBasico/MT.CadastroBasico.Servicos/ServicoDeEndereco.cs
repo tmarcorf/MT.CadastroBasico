@@ -49,9 +49,16 @@ namespace MT.CadastroBasico.Servicos
         /// <returns>Indicador de sucesso na inserção.</returns>
         public bool Cadastrar(Endereco endereco)
         {
-            _validadorEndereco.Valide(endereco);
+            try
+            {
+                _validadorEndereco.Valide(endereco);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
 
-             return _repositorioDeEndereco.CadastreEndereco(endereco);
+            return _repositorioDeEndereco.CadastreEndereco(endereco);
         }
     }
 }

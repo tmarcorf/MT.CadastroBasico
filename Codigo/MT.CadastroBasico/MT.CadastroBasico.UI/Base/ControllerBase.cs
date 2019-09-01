@@ -19,12 +19,15 @@ namespace MT.CadastroBasico.UI.Base
         public void AdicioneColunaCheckBox(DataGridView gridDeEnderecos)
         {
             var colunaCheck = new DataGridViewCheckBoxColumn();
+            colunaCheck.Name = string.Empty;
+            colunaCheck.TrueValue = true;
+            colunaCheck.FalseValue = false;
 
             colunaCheck.ReadOnly = false;
             colunaCheck.Resizable = DataGridViewTriState.False;
             colunaCheck.FillWeight = 40.0f;
 
-            gridDeEnderecos.Columns.Insert(0, colunaCheck);
+            gridDeEnderecos.Columns.Insert(1, colunaCheck);
         }
 
         /// <summary>
@@ -38,6 +41,20 @@ namespace MT.CadastroBasico.UI.Base
             gridDeEnderecos.Columns.Add(nomeDaColuna, textoDoCabecalho);
             gridDeEnderecos.Columns[nomeDaColuna].ReadOnly = true;
             gridDeEnderecos.Columns[nomeDaColuna].Resizable = DataGridViewTriState.False;
+        }
+
+        public void ExibaMensagemDeSucesso()
+        {
+            MessageBox.Show("O registro foi inserido com sucesso.", "", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        /// <summary>
+        /// Exibe uma mensagem de campos vazios.
+        /// </summary>
+        /// <param name="mensagem">A mensagem.</param>
+        public void ExibaMensagemDeCampoVazio(string mensagem)
+        {
+            MessageBox.Show(mensagem, "", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
 }

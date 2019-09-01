@@ -67,7 +67,22 @@ namespace MT.CadastroBasico.Persistencia.Repositorios
 
             var sql = ConstantesBD.SQL_INSIRA_ENDERECO;
 
-            return UtilBD.ExecutaAtualizacao(sql) > 0;
+            return UtilBD.ExecuteAtualizacao(sql) > 0;
+        }
+
+        /// <summary>
+        /// Exclui uma lista de endereços
+        /// </summary>
+        /// <param name="listaDeIdentificadores">A lista de identificadores.</param>
+        /// <returns></returns>
+        public bool ExcluaEnderecos(List<int> listaDeIdentificadores)
+        {
+            UtilBD.LimpeParametros();
+            UtilBD.AdicionarParametro("@IDENDERECO", SqlDbType.Int, listaDeIdentificadores);
+
+            var sql = ConstantesBD.SQL_EXCLUA_LISTA;
+
+            return UtilBD.ExecuteAtualizacao(sql) > 0;
         }
 
         #region MÉTODOS PRIVADOS
