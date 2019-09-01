@@ -49,8 +49,14 @@
     <Compile Include="Base\FormularioBase.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Controllers\ControllerBase.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Controllers\TelaCadastroEnderecoController.cs" />
+    <Compile Include="Controllers\TelaCadastroPessoaController.cs" />
+    <Compile Include="Controllers\TelaInicialController.cs" />
+    <Compile Include="Controllers\TelaInicialEnderecoController.cs" />
+    <Compile Include="Controllers\TelaInicialPessoaController.cs" />
     <Compile Include="Views\Endereco\TelaCadastroEnderecoView.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -113,9 +119,13 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\MT.CadastroBasico.Controllers\MT.CadastroBasico.Controllers.csproj">
-      <Project>{9189197B-725F-4002-9442-C74DEA09D85A}</Project>
-      <Name>MT.CadastroBasico.Controllers</Name>
+    <ProjectReference Include="..\MT.CadastroBasico.Negocio\MT.CadastroBasico.Negocio.csproj">
+      <Project>{7ebd544f-72ca-45fd-b624-0c56cd4127aa}</Project>
+      <Name>MT.CadastroBasico.Negocio</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MT.CadastroBasico.Servicos\MT.CadastroBasico.Servicos.csproj">
+      <Project>{732ED850-3BF0-4C74-A523-CC9ADC4AD240}</Project>
+      <Name>MT.CadastroBasico.Servicos</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

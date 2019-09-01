@@ -1,4 +1,4 @@
-﻿using MT.CadastroBasico.Controllers.TelaControllers;
+﻿using MT.CadastroBasico.UI.Controllers;
 using MT.CadastroBasico.UI.Base;
 using System;
 using System.Collections.Generic;
@@ -27,11 +27,23 @@ namespace MT.CadastroBasico.UI.Views.Endereco
             InitializeComponent();
 
             _controller = new TelaInicialEnderecoController(this);
+
         }
 
-        private void TelaInicialEnderecoView_Load(object sender, EventArgs e)
+        /// <summary>
+        /// Obtém a grid da lista de endereços.
+        /// </summary>
+        /// <returns>A grid da lista de endereços.</returns>
+        public DataGridView ObtenhaGridListaDeEnderecos()
         {
+            return this.gridListaDeEnderecos;
+        }
 
+        #region EVENTOS DA TELA
+
+        private void EventoFormularioEnderecoCarregado(object sender, EventArgs e)
+        {
+            InicalizeTela();
         }
 
         private void EventoClickBotaoNovo(object sender, EventArgs e)
@@ -39,6 +51,23 @@ namespace MT.CadastroBasico.UI.Views.Endereco
             var telaCadastroEndereco = new TelaCadastroEnderecoView();
 
             this.ExibaFormulario(telaCadastroEndereco);
+        }
+
+        /// <summary>
+        /// Fecha o formulário.
+        /// </summary>
+        /// <param name="sender">O disparador do evento.</param>
+        /// <param name="e">Os argumentos.</param>
+        private void EventoClickBotaoFechar(object sender, EventArgs e)
+        {
+            _controller.FecheFormulario();
+        }
+
+        #endregion
+
+        private void InicalizeTela()
+        {
+            _controller.ConfigureGridListaDeEnderecos();
         }
     }
 }

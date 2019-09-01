@@ -17,8 +17,12 @@ C:\Users\marco\Documents\GitHub\Repositórios\MT.CadastroBasico\Codigo\MT.Cadast
 C:\Users\marco\Documents\GitHub\Repositórios\MT.CadastroBasico\Codigo\MT.CadastroBasico\MT.CadastroBasico.UI\obj\Debug\MT.CadastroBasico.UI.exe
 C:\Users\marco\Documents\GitHub\Repositórios\MT.CadastroBasico\Codigo\MT.CadastroBasico\MT.CadastroBasico.UI\obj\Debug\MT.CadastroBasico.UI.pdb
 C:\Users\marco\Documents\GitHub\Repositórios\MT.CadastroBasico\Codigo\MT.CadastroBasico\MT.CadastroBasico.UI\obj\Debug\MT.CadastroBasico.UI.Views.TelaInicialView.resources
-C:\Users\marco\Documents\GitHub\Repositórios\MT.CadastroBasico\Codigo\MT.CadastroBasico\MT.CadastroBasico.UI\bin\Debug\MT.CadastroBasico.Controllers.dll
-C:\Users\marco\Documents\GitHub\Repositórios\MT.CadastroBasico\Codigo\MT.CadastroBasico\MT.CadastroBasico.UI\bin\Debug\MT.CadastroBasico.Controllers.pdb
-C:\Users\marco\Documents\GitHub\Repositórios\MT.CadastroBasico\Codigo\MT.CadastroBasico\MT.CadastroBasico.UI\obj\Debug\MT.CadastroBasico.UI.csproj.CopyComplete
 C:\Users\marco\Documents\GitHub\Repositórios\MT.CadastroBasico\Codigo\MT.CadastroBasico\MT.CadastroBasico.UI\obj\Debug\MT.CadastroBasico.UI.Views.Endereco.TelaInicialEnderecoView.resources
 C:\Users\marco\Documents\GitHub\Repositórios\MT.CadastroBasico\Codigo\MT.CadastroBasico\MT.CadastroBasico.UI\obj\Debug\MT.CadastroBasico.UI.Views.Endereco.TelaCadastroEnderecoView.resources
+C:\Users\marco\Documents\GitHub\Repositórios\MT.CadastroBasico\Codigo\MT.CadastroBasico\MT.CadastroBasico.UI\bin\Debug\MT.CadastroBasico.Negocio.dll
+C:\Users\marco\Documents\GitHub\Repositórios\MT.CadastroBasico\Codigo\MT.CadastroBasico\MT.CadastroBasico.UI\bin\Debug\MT.CadastroBasico.Servicos.dll
+C:\Users\marco\Documents\GitHub\Repositórios\MT.CadastroBasico\Codigo\MT.CadastroBasico\MT.CadastroBasico.UI\bin\Debug\MT.CadastroBasico.Persistencia.dll
+C:\Users\marco\Documents\GitHub\Repositórios\MT.CadastroBasico\Codigo\MT.CadastroBasico\MT.CadastroBasico.UI\bin\Debug\MT.CadastroBasico.Negocio.pdb
+C:\Users\marco\Documents\GitHub\Repositórios\MT.CadastroBasico\Codigo\MT.CadastroBasico\MT.CadastroBasico.UI\bin\Debug\MT.CadastroBasico.Servicos.pdb
+C:\Users\marco\Documents\GitHub\Repositórios\MT.CadastroBasico\Codigo\MT.CadastroBasico\MT.CadastroBasico.UI\bin\Debug\MT.CadastroBasico.Persistencia.pdb
+C:\Users\marco\Documents\GitHub\Repositórios\MT.CadastroBasico\Codigo\MT.CadastroBasico\MT.CadastroBasico.UI\obj\Debug\MT.CadastroBasico.UI.csproj.CopyComplete

@@ -15,7 +15,7 @@ namespace MT.CadastroBasico.UI.Base
         /// <param name="formulario">A instância do formulário.</param>
         public void ExibaFormulario(Form formulario)
         {
-            formulario.Show();
+            formulario.ShowDialog();
         }
     }
 }

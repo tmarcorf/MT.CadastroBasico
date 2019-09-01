@@ -72,6 +72,7 @@
             this.btnFechar.TabIndex = 3;
             this.btnFechar.Text = "Fechar";
             this.btnFechar.UseVisualStyleBackColor = true;
+            this.btnFechar.Click += new System.EventHandler(this.EventoClickBotaoFechar);
             // 
             // gridListaDeEnderecos
             // 
@@ -94,10 +95,12 @@
             this.Controls.Add(this.btnRemover);
             this.Controls.Add(this.btnNovo);
             this.Controls.Add(this.lblListaDeEnderecos);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "TelaInicialEnderecoView";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Endereços";
-            this.Load += new System.EventHandler(this.TelaInicialEnderecoView_Load);
+            this.Load += new System.EventHandler(this.EventoFormularioEnderecoCarregado);
             ((System.ComponentModel.ISupportInitialize)(this.gridListaDeEnderecos)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

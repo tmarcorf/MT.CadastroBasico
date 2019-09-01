@@ -152,6 +152,7 @@
             this.Controls.Add(this.lblLogradouro);
             this.Controls.Add(this.txbDescricao);
             this.Controls.Add(this.lblDescricao);
+            this.MaximizeBox = false;
             this.Name = "TelaCadastroEnderecoView";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Cadastro de Endereço";

@@ -11,9 +11,26 @@ namespace MT.CadastroBasico.Controllers.TelaControllers
     {
         private Form _tela;
 
-        public TelaInicialEnderecoController(Form telaInicialEndereco)
+        /// <summary>
+        /// O construtor da classe.
+        /// </summary>
+        /// <param name="telaInicialEndereco">A tela inicial de endereço.</param>
+        public TelaInicialEnderecoController(TelaInicialEnderecoView telaInicialEndereco)
         {
             _tela = telaInicialEndereco;
+        }
+
+        /// <summary>
+        /// Fecha o formulário.
+        /// </summary>
+        public void FecheFormulario()
+        {
+            _tela.Close();
+        }
+
+        public void ConfigureGridListaDeEnderecos()
+        {
+            _tela
         }
     }
 }

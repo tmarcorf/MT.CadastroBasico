@@ -1,4 +1,4 @@
-﻿using MT.CadastroBasico.Controllers.TelaControllers;
+﻿using MT.CadastroBasico.UI.Controllers;
 using MT.CadastroBasico.UI.Base;
 using MT.CadastroBasico.UI.Views.Endereco;
 using MT.CadastroBasico.UI.Views.Pessoa;

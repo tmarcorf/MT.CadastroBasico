@@ -34,8 +34,7 @@ namespace MT.CadastroBasico.Persistencia.BancoDeDados
         {
             try
             {
-                string stringDeConexao = ConfigurationManager
-                .ConnectionStrings[ConstantesBD.STRING_DE_CONEXAO].ConnectionString;
+                string stringDeConexao = ConstantesBD.STRING_DE_CONEXAO;
 
                 Conexao = new SqlConnection(stringDeConexao);
                 
