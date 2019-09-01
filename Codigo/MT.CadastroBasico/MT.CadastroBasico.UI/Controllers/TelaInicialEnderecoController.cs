@@ -1,4 +1,5 @@
 ﻿using MT.CadastroBasico.Servicos;
+using MT.CadastroBasico.UI.Base;
 using MT.CadastroBasico.UI.Views.Endereco;
 using System.Windows.Forms;
 
@@ -6,6 +7,13 @@ namespace MT.CadastroBasico.UI.Controllers
 {
     public class TelaInicialEnderecoController : ControllerBase
     {
+        private const string COLUNA_CHECK = "Selecionar";
+        private const string COLUNA_ID = "Identificador";
+        private const string COLUNA_DESCRICAO = "Descricao";
+        private const string COLUNA_LOGRADOURO = "Logradouro";
+        private const string COLUNA_BAIRRO = "Bairro";
+        private const string COLUNA_CIDADE = "Cidade";
+
         private TelaInicialEnderecoView _tela;
         private ServicoDeEndereco _servicoDeEndereco;
 
@@ -30,20 +38,25 @@ namespace MT.CadastroBasico.UI.Controllers
         public void ConfigureGridListaDeEnderecos()
         {
             var gridDeEnderecos = _tela.ObtenhaGridListaDeEnderecos();
+            gridDeEnderecos.Columns.Clear();
 
             AdicioneColunaCheckBox(gridDeEnderecos);
 
-            AdicioneColunaTexto("Descricao", "Descrição", gridDeEnderecos);
-            AdicioneColunaTexto("Logradouro", "Logradouro", gridDeEnderecos);
-            AdicioneColunaTexto("Bairro", "Bairro", gridDeEnderecos);
-            AdicioneColunaTexto("Cidade", "Cidade", gridDeEnderecos);
+            AdicioneColunaTexto(COLUNA_ID, COLUNA_ID, gridDeEnderecos);
+            AdicioneColunaTexto(COLUNA_DESCRICAO, "Descrição", gridDeEnderecos);
+            AdicioneColunaTexto(COLUNA_LOGRADOURO, COLUNA_LOGRADOURO, gridDeEnderecos);
+            AdicioneColunaTexto(COLUNA_BAIRRO, COLUNA_BAIRRO, gridDeEnderecos);
+            AdicioneColunaTexto(COLUNA_CIDADE, COLUNA_CIDADE, gridDeEnderecos);
 
-            gridDeEnderecos.Columns["Descricao"].Width = 100;
-            gridDeEnderecos.Columns["Logradouro"].Width = 70;
-            gridDeEnderecos.Columns["Bairro"].Width = 70;
-            gridDeEnderecos.Columns["Cidade"].Width = 70;
+            gridDeEnderecos.Columns[COLUNA_DESCRICAO].Width = 100;
+            gridDeEnderecos.Columns[COLUNA_LOGRADOURO].Width = 70;
+            gridDeEnderecos.Columns[COLUNA_BAIRRO].Width = 70;
+            gridDeEnderecos.Columns[COLUNA_CIDADE].Width = 70;
+
+            gridDeEnderecos.Columns[COLUNA_ID].Visible = false;
 
             gridDeEnderecos.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            gridDeEnderecos.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.None;
 
             this.PreenchaGridDeListaDeEnderecos(gridDeEnderecos);
         }
@@ -56,10 +69,11 @@ namespace MT.CadastroBasico.UI.Controllers
             {
                 gridDeEnderecos.Rows.Add();
 
-                gridDeEnderecos["Descricao", contador].Value = listaDeEnderecos[contador].Descricao;
-                gridDeEnderecos["Logradouro", contador].Value = listaDeEnderecos[contador].Logradouro;
-                gridDeEnderecos["Bairro", contador].Value = listaDeEnderecos[contador].Bairro;
-                gridDeEnderecos["Cidade", contador].Value = listaDeEnderecos[contador].Cidade;
+                gridDeEnderecos[COLUNA_ID, contador].Value = listaDeEnderecos[contador].Identificador;
+                gridDeEnderecos[COLUNA_DESCRICAO, contador].Value = listaDeEnderecos[contador].Descricao;
+                gridDeEnderecos[COLUNA_LOGRADOURO, contador].Value = listaDeEnderecos[contador].Logradouro;
+                gridDeEnderecos[COLUNA_BAIRRO, contador].Value = listaDeEnderecos[contador].Bairro;
+                gridDeEnderecos[COLUNA_CIDADE, contador].Value = listaDeEnderecos[contador].Cidade;
             }
         }
     }

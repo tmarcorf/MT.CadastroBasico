@@ -36,7 +36,7 @@ namespace MT.CadastroBasico.UI.Views.Endereco
         /// <returns>A grid da lista de endereços.</returns>
         public DataGridView ObtenhaGridListaDeEnderecos()
         {
-            return this.gridListaDeEnderecos;
+            return gridListaDeEnderecos;
         }
 
         #region EVENTOS DA TELA

@@ -81,7 +81,6 @@
             this.gridListaDeEnderecos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.gridListaDeEnderecos.Location = new System.Drawing.Point(12, 60);
             this.gridListaDeEnderecos.Name = "gridListaDeEnderecos";
-            this.gridListaDeEnderecos.ReadOnly = true;
             this.gridListaDeEnderecos.Size = new System.Drawing.Size(579, 255);
             this.gridListaDeEnderecos.TabIndex = 4;
             // 
