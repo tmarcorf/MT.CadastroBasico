@@ -14,8 +14,9 @@ namespace MT.CadastroBasico.UI.Views.Endereco
 {
     public partial class TelaInicialEnderecoView : FormularioBase
     {
-        private const int COLUNA_CHECK = 1;
-
+        private const string COLUNA_CHECK = "Selecionar";
+        private const int COLUNA_ID = 1;
+        
         /// <summary>
         /// Controller da tela.
         /// </summary>
@@ -71,45 +72,6 @@ namespace MT.CadastroBasico.UI.Views.Endereco
         private void InicalizeTela()
         {
             _controller.ConfigureGridListaDeEnderecos();
-            btnRemover.Enabled = false;
-        }
-
-        private void EventoClickCelulaDaGridDeEnderecos(object sender, DataGridViewCellEventArgs e)
-        {
-            
-            var index = e.RowIndex;
-
-            if (e.ColumnIndex == COLUNA_CHECK)
-            {
-                if ((bool)gridListaDeEnderecos[e.ColumnIndex, e.RowIndex].Value == false)
-                {
-                    gridListaDeEnderecos[e.ColumnIndex, e.RowIndex].Value = true;
-                }
-            }
-
-            var colunaCheckEstaMarcada = AlgumItemColunaCheckEstaMarcado();
-        }
-
-        /// <summary>
-        /// Verifica se algum item da coluna check está marcado.
-        /// </summary>
-        /// <returns>Verdadeiro ou falso.</returns>
-        private List<int> AlgumItemColunaCheckEstaMarcado()
-        {
-            foreach (DataGridViewRow linha in gridListaDeEnderecos.Rows)
-            {
-                if (Convert.ToBoolean(linha.Cells[0].Value) == true)
-                {
-                    return new List<int>();
-                }
-            }
-
-            return new List<int>();
-        }
-
-        private void EventoClickBotaoRemover(object sender, EventArgs e)
-        {
-
         }
     }
 }

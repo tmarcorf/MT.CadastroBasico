@@ -8,7 +8,7 @@ namespace MT.CadastroBasico.UI.Controllers
     public class TelaInicialEnderecoController : ControllerBase
     {
         private const string COLUNA_CHECK = "Selecionar";
-        private const string COLUNA_ID = "Identificador";
+        private const string COLUNA_ID = "ID";
         private const string COLUNA_DESCRICAO = "Descricao";
         private const string COLUNA_LOGRADOURO = "Logradouro";
         private const string COLUNA_BAIRRO = "Bairro";
@@ -41,20 +41,16 @@ namespace MT.CadastroBasico.UI.Controllers
             gridDeEnderecos.Columns.Clear();
 
             AdicioneColunaTexto(COLUNA_ID, COLUNA_ID, gridDeEnderecos);
-
-            //AdicioneColunaCheckBox(gridDeEnderecos);
-
             AdicioneColunaTexto(COLUNA_DESCRICAO, "Descrição", gridDeEnderecos);
             AdicioneColunaTexto(COLUNA_LOGRADOURO, COLUNA_LOGRADOURO, gridDeEnderecos);
             AdicioneColunaTexto(COLUNA_BAIRRO, COLUNA_BAIRRO, gridDeEnderecos);
             AdicioneColunaTexto(COLUNA_CIDADE, COLUNA_CIDADE, gridDeEnderecos);
 
+            gridDeEnderecos.Columns[COLUNA_ID].Width = 50;
             gridDeEnderecos.Columns[COLUNA_DESCRICAO].Width = 100;
             gridDeEnderecos.Columns[COLUNA_LOGRADOURO].Width = 70;
             gridDeEnderecos.Columns[COLUNA_BAIRRO].Width = 70;
             gridDeEnderecos.Columns[COLUNA_CIDADE].Width = 70;
-
-            gridDeEnderecos.Columns[COLUNA_ID].Visible = false;
 
             gridDeEnderecos.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             gridDeEnderecos.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.None;

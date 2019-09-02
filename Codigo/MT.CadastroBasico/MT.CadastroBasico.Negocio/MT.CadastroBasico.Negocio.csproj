@@ -43,10 +43,8 @@
   <ItemGroup>
     <Compile Include="ConstantesDeMensagens.cs" />
     <Compile Include="Objetos\Endereco.cs" />
-    <Compile Include="Objetos\Pessoa.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Validacoes\ValidacoesDeEndereco.cs" />
-    <Compile Include="Validacoes\ValidacoesDePessoa.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

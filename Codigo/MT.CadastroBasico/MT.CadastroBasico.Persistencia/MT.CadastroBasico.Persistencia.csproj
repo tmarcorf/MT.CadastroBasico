@@ -46,7 +46,6 @@
     <Compile Include="BancoDeDados\UtilBD.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositorios\RepositorioDeEndereco.cs" />
-    <Compile Include="Repositorios\RepositorioDePessoa.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\MT.CadastroBasico.Negocio\MT.CadastroBasico.Negocio.csproj">

@@ -1,7 +1,6 @@
 ﻿using MT.CadastroBasico.UI.Controllers;
 using MT.CadastroBasico.UI.Base;
 using MT.CadastroBasico.UI.Views.Endereco;
-using MT.CadastroBasico.UI.Views.Pessoa;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;

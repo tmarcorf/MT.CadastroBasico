@@ -14,23 +14,6 @@ namespace MT.CadastroBasico.UI.Base
     public class ControllerBase
     {
         /// <summary>
-        /// Adiciona uma coluna check box.
-        /// </summary>
-        public void AdicioneColunaCheckBox(DataGridView gridDeEnderecos)
-        {
-            var colunaCheck = new DataGridViewCheckBoxColumn();
-            colunaCheck.Name = string.Empty;
-            colunaCheck.TrueValue = true;
-            colunaCheck.FalseValue = false;
-
-            colunaCheck.ReadOnly = false;
-            colunaCheck.Resizable = DataGridViewTriState.False;
-            colunaCheck.FillWeight = 40.0f;
-
-            gridDeEnderecos.Columns.Insert(1, colunaCheck);
-        }
-
-        /// <summary>
         /// Adiciona uma coluna do tipo texto.
         /// </summary>
         /// <param name="nomeDaColuna">O nome da coluna.</param>
@@ -54,7 +37,7 @@ namespace MT.CadastroBasico.UI.Base
         /// <param name="mensagem">A mensagem.</param>
         public void ExibaMensagemDeCampoVazio(string mensagem)
         {
-            MessageBox.Show(mensagem, "", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show(mensagem, "", MessageBoxButtons.OK, MessageBoxIcon.Warning);
         }
     }
 }

@@ -31,7 +31,6 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.cadastrosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.endereçosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.pessoasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -48,8 +47,7 @@
             // cadastrosToolStripMenuItem
             // 
             this.cadastrosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.endereçosToolStripMenuItem,
-            this.pessoasToolStripMenuItem});
+            this.endereçosToolStripMenuItem});
             this.cadastrosToolStripMenuItem.Name = "cadastrosToolStripMenuItem";
             this.cadastrosToolStripMenuItem.Size = new System.Drawing.Size(71, 20);
             this.cadastrosToolStripMenuItem.Text = "Cadastros";
@@ -60,12 +58,6 @@
             this.endereçosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.endereçosToolStripMenuItem.Text = "Endereço";
             this.endereçosToolStripMenuItem.Click += new System.EventHandler(this.EventoClickMenuEndereco);
-            // 
-            // pessoasToolStripMenuItem
-            // 
-            this.pessoasToolStripMenuItem.Name = "pessoasToolStripMenuItem";
-            this.pessoasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.pessoasToolStripMenuItem.Text = "Pessoa";
             // 
             // TelaInicialView
             // 
@@ -91,6 +83,5 @@
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem cadastrosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem endereçosToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem pessoasToolStripMenuItem;
     }
 }
