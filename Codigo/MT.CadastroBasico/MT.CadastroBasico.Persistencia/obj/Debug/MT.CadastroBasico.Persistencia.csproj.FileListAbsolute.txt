@@ -15,3 +15,10 @@ C:\Users\marco\Documents\GitHub\Repositórios\MT.CadastroBasico\Codigo\MT.Cadast
 C:\Users\marco\Documents\GitHub\Repositórios\MT.CadastroBasico\Codigo\MT.CadastroBasico\MT.CadastroBasico.Persistencia\obj\Debug\MT.CadastroBasico.Persistencia.csproj.CopyComplete
 C:\Users\marco\Documents\GitHub\Repositórios\MT.CadastroBasico\Codigo\MT.CadastroBasico\Ouput\Binarios\MT.CadastroBasico.Persistencia.dll
 C:\Users\marco\Documents\GitHub\Repositórios\MT.CadastroBasico\Codigo\MT.CadastroBasico\Ouput\Binarios\MT.CadastroBasico.Persistencia.pdb
+C:\Users\marco.felix\Documents\GitHub\MT.CadastroBasico\Codigo\MT.CadastroBasico\Output\Binarios\MT.CadastroBasico.Persistencia.dll
+C:\Users\marco.felix\Documents\GitHub\MT.CadastroBasico\Codigo\MT.CadastroBasico\Output\Binarios\MT.CadastroBasico.Persistencia.pdb
+C:\Users\marco.felix\Documents\GitHub\MT.CadastroBasico\Codigo\MT.CadastroBasico\MT.CadastroBasico.Persistencia\obj\Debug\MT.CadastroBasico.Persistencia.csprojAssemblyReference.cache
+C:\Users\marco.felix\Documents\GitHub\MT.CadastroBasico\Codigo\MT.CadastroBasico\MT.CadastroBasico.Persistencia\obj\Debug\MT.CadastroBasico.Persistencia.csproj.CoreCompileInputs.cache
+C:\Users\marco.felix\Documents\GitHub\MT.CadastroBasico\Codigo\MT.CadastroBasico\MT.CadastroBasico.Persistencia\obj\Debug\MT.CadastroBasico.Persistencia.csproj.CopyComplete
+C:\Users\marco.felix\Documents\GitHub\MT.CadastroBasico\Codigo\MT.CadastroBasico\MT.CadastroBasico.Persistencia\obj\Debug\MT.CadastroBasico.Persistencia.dll
+C:\Users\marco.felix\Documents\GitHub\MT.CadastroBasico\Codigo\MT.CadastroBasico\MT.CadastroBasico.Persistencia\obj\Debug\MT.CadastroBasico.Persistencia.pdb
