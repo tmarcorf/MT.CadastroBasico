@@ -11,10 +11,7 @@ namespace MT.CadastroBasico.Persistencia.BancoDeDados
         /// <summary>
         /// A string de conexão.
         /// </summary>
-        public static string STRING_DE_CONEXAO = @"Server=PC-MT\DEVELOPER17;
-                                                   Database=CadastroBasico;
-                                                   User Id=sa;
-                                                   Password=1234";
+        public static string STRING_DE_CONEXAO = @"INSIRA AQUI A STRING DE CONEXÃO";
 
         #region ENDERECO
 
