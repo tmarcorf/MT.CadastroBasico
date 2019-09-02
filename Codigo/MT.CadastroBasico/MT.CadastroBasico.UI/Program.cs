@@ -16,9 +16,17 @@ namespace MT.CadastroBasico.UI
         [STAThread]
         static void Main()
         {
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new TelaInicialView());
+            try
+            {
+                Application.EnableVisualStyles();
+                Application.SetCompatibleTextRenderingDefault(false);
+                Application.Run(new TelaInicialView());
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Ocorreu um erro na aplicação: " + ex.Message, "", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            
         }
     }
 }
