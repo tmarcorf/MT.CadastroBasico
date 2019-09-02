@@ -70,7 +70,7 @@
             // txbLogradouro
             // 
             this.txbLogradouro.Location = new System.Drawing.Point(76, 73);
-            this.txbLogradouro.MaxLength = 20;
+            this.txbLogradouro.MaxLength = 50;
             this.txbLogradouro.Name = "txbLogradouro";
             this.txbLogradouro.Size = new System.Drawing.Size(312, 20);
             this.txbLogradouro.TabIndex = 3;
@@ -87,7 +87,7 @@
             // txbBairro
             // 
             this.txbBairro.Location = new System.Drawing.Point(76, 99);
-            this.txbBairro.MaxLength = 20;
+            this.txbBairro.MaxLength = 50;
             this.txbBairro.Name = "txbBairro";
             this.txbBairro.Size = new System.Drawing.Size(312, 20);
             this.txbBairro.TabIndex = 5;
@@ -104,7 +104,7 @@
             // txbCidade
             // 
             this.txbCidade.Location = new System.Drawing.Point(76, 125);
-            this.txbCidade.MaxLength = 20;
+            this.txbCidade.MaxLength = 50;
             this.txbCidade.Name = "txbCidade";
             this.txbCidade.Size = new System.Drawing.Size(312, 20);
             this.txbCidade.TabIndex = 7;
