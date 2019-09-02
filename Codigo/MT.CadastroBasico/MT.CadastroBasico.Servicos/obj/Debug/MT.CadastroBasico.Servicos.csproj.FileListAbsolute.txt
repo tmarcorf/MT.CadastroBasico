@@ -9,3 +9,5 @@ C:\Users\marco\Documents\GitHub\Repositórios\MT.CadastroBasico\Codigo\MT.Cadast
 C:\Users\marco\Documents\GitHub\Repositórios\MT.CadastroBasico\Codigo\MT.CadastroBasico\MT.CadastroBasico.Servicos\obj\Debug\MT.CadastroBasico.Servicos.csproj.CopyComplete
 C:\Users\marco\Documents\GitHub\Repositórios\MT.CadastroBasico\Codigo\MT.CadastroBasico\MT.CadastroBasico.Servicos\obj\Debug\MT.CadastroBasico.Servicos.dll
 C:\Users\marco\Documents\GitHub\Repositórios\MT.CadastroBasico\Codigo\MT.CadastroBasico\MT.CadastroBasico.Servicos\obj\Debug\MT.CadastroBasico.Servicos.pdb
+C:\Users\marco\Documents\GitHub\Repositórios\MT.CadastroBasico\Codigo\MT.CadastroBasico\Ouput\Binarios\MT.CadastroBasico.Servicos.dll
+C:\Users\marco\Documents\GitHub\Repositórios\MT.CadastroBasico\Codigo\MT.CadastroBasico\Ouput\Binarios\MT.CadastroBasico.Servicos.pdb

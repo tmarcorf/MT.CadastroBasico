@@ -10,3 +10,5 @@ C:\Users\marco\Documents\GitHub\Repositórios\MT.CadastroBasico\Codigo\MT.Cadast
 C:\Users\marco\Documents\GitHub\Repositórios\MT.CadastroBasico\Codigo\MT.CadastroBasico\MT.CadastroBasico.Negocio\obj\Debug\MT.CadastroBasico.Negocio.csproj.CoreCompileInputs.cache
 C:\Users\marco\Documents\GitHub\Repositórios\MT.CadastroBasico\Codigo\MT.CadastroBasico\MT.CadastroBasico.Negocio\obj\Debug\MT.CadastroBasico.Negocio.dll
 C:\Users\marco\Documents\GitHub\Repositórios\MT.CadastroBasico\Codigo\MT.CadastroBasico\MT.CadastroBasico.Negocio\obj\Debug\MT.CadastroBasico.Negocio.pdb
+C:\Users\marco\Documents\GitHub\Repositórios\MT.CadastroBasico\Codigo\MT.CadastroBasico\Ouput\Binarios\MT.CadastroBasico.Negocio.dll
+C:\Users\marco\Documents\GitHub\Repositórios\MT.CadastroBasico\Codigo\MT.CadastroBasico\Ouput\Binarios\MT.CadastroBasico.Negocio.pdb

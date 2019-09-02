@@ -13,3 +13,5 @@ C:\Users\marco\Documents\GitHub\Repositórios\MT.CadastroBasico\Codigo\MT.Cadast
 C:\Users\marco\Documents\GitHub\Repositórios\MT.CadastroBasico\Codigo\MT.CadastroBasico\MT.CadastroBasico.Persistencia\bin\Debug\MT.CadastroBasico.Negocio.dll
 C:\Users\marco\Documents\GitHub\Repositórios\MT.CadastroBasico\Codigo\MT.CadastroBasico\MT.CadastroBasico.Persistencia\bin\Debug\MT.CadastroBasico.Negocio.pdb
 C:\Users\marco\Documents\GitHub\Repositórios\MT.CadastroBasico\Codigo\MT.CadastroBasico\MT.CadastroBasico.Persistencia\obj\Debug\MT.CadastroBasico.Persistencia.csproj.CopyComplete
+C:\Users\marco\Documents\GitHub\Repositórios\MT.CadastroBasico\Codigo\MT.CadastroBasico\Ouput\Binarios\MT.CadastroBasico.Persistencia.dll
+C:\Users\marco\Documents\GitHub\Repositórios\MT.CadastroBasico\Codigo\MT.CadastroBasico\Ouput\Binarios\MT.CadastroBasico.Persistencia.pdb
