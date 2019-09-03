@@ -52,13 +52,13 @@ namespace MT.CadastroBasico.Servicos
             try
             {
                 _validadorEndereco.Valide(endereco);
+
+                return _repositorioDeEndereco.CadastreEndereco(endereco);
             }
             catch (Exception ex)
             {
                 throw ex;
             }
-
-            return _repositorioDeEndereco.CadastreEndereco(endereco);
         }
     }
 }

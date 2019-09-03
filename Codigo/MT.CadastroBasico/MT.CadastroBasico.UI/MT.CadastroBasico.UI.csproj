@@ -110,7 +110,7 @@
       <Name>MT.CadastroBasico.Negocio</Name>
     </ProjectReference>
     <ProjectReference Include="..\MT.CadastroBasico.Servicos\MT.CadastroBasico.Servicos.csproj">
-      <Project>{732ED850-3BF0-4C74-A523-CC9ADC4AD240}</Project>
+      <Project>{732ed850-3bf0-4c74-a523-cc9adc4ad240}</Project>
       <Name>MT.CadastroBasico.Servicos</Name>
     </ProjectReference>
   </ItemGroup>

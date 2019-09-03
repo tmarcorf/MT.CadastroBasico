@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace MT.CadastroBasico.Persistencia.BancoDeDados
 {
+    /// <summary>
+    /// Classe responsável pelas constantes usadas nas transações com o banco.
+    /// </summary>
     public static class ConstantesBD
     {
         /// <summary>
