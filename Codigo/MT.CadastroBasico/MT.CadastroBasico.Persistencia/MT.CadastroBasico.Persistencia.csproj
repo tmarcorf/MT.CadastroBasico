@@ -49,7 +49,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\MT.CadastroBasico.Negocio\MT.CadastroBasico.Negocio.csproj">
-      <Project>{7EBD544F-72CA-45FD-B624-0C56CD4127AA}</Project>
+      <Project>{7ebd544f-72ca-45fd-b624-0c56cd4127aa}</Project>
       <Name>MT.CadastroBasico.Negocio</Name>
     </ProjectReference>
   </ItemGroup>

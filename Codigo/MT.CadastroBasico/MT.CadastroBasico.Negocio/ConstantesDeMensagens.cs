@@ -11,6 +11,6 @@ namespace MT.CadastroBasico.Negocio
         /// <summary>
         /// Mensagem dados do endereço vazios.
         /// </summary>
-        public static string MENSAGEM_DADOS_VAZIOS_ENDERECO = "Preencha todos os campos do endereço!";
+        public static string MENSAGEM_PREENCHA_CAMPOS_ENDERECO = "Preencha todos os campos do endereço!";
     }
 }

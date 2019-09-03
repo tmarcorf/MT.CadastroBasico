@@ -23,7 +23,7 @@ namespace MT.CadastroBasico.Negocio.Validacoes
 
             if (enderecoNaoEstaValido)
             {
-                throw new Exception(ConstantesDeMensagens.MENSAGEM_DADOS_VAZIOS_ENDERECO);
+                throw new Exception(ConstantesDeMensagens.MENSAGEM_PREENCHA_CAMPOS_ENDERECO);
             }
         }
     }
