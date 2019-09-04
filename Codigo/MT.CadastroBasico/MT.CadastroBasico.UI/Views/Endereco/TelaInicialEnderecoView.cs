@@ -49,6 +49,11 @@ namespace MT.CadastroBasico.UI.Views.Endereco
             InicalizeTela();
         }
 
+        /// <summary>
+        /// Evento de click do botão Novo.
+        /// </summary>
+        /// <param name="sender">O disparador do evento.</param>
+        /// <param name="e">Os argumentos.</param>
         private void EventoClickBotaoNovo(object sender, EventArgs e)
         {
             var telaCadastroEndereco = new TelaCadastroEnderecoView();

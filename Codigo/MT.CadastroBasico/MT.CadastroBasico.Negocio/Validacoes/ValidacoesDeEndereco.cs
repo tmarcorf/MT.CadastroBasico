@@ -16,10 +16,10 @@ namespace MT.CadastroBasico.Negocio.Validacoes
         public void Valide(Endereco endereco)
         {
             bool enderecoNaoEstaValido =
-                string.IsNullOrEmpty(endereco.Descricao) ||
-                string.IsNullOrEmpty(endereco.Logradouro) ||
-                string.IsNullOrEmpty(endereco.Bairro) ||
-                string.IsNullOrEmpty(endereco.Cidade);
+                string.IsNullOrWhiteSpace(endereco.Descricao) ||
+                string.IsNullOrWhiteSpace(endereco.Logradouro) ||
+                string.IsNullOrWhiteSpace(endereco.Bairro) ||
+                string.IsNullOrWhiteSpace(endereco.Cidade);
 
             if (enderecoNaoEstaValido)
             {
