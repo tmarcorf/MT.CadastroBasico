@@ -3,11 +3,8 @@ using MT.CadastroBasico.Negocio.Validacoes;
 using MT.CadastroBasico.Persistencia.Repositorios;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace MT.CadastroBasico.Servicos
+namespace MT.CadastroBasico.Servicos.EnderecoObj
 {
     /// <summary>
     /// O serviço de endereço.

@@ -1,9 +1,5 @@
 ﻿using MT.CadastroBasico.Negocio.Objetos;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace MT.CadastroBasico.Negocio.Validacoes
 {

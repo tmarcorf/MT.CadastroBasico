@@ -1,13 +1,8 @@
 ﻿using MT.CadastroBasico.Negocio.Objetos;
-using MT.CadastroBasico.Servicos;
+using MT.CadastroBasico.Servicos.EnderecoObj;
 using MT.CadastroBasico.UI.Base;
 using MT.CadastroBasico.UI.Views.Endereco;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 
 namespace MT.CadastroBasico.UI.Controllers
 {
