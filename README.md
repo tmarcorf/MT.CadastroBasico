@@ -11,7 +11,7 @@ de desenvolvimento.
 
 2.1 - Baixar e instalar as ferramentas de desenvolvimento:
 
-- Visual Studio 2019 (Comunity) :
+- Visual Studio 2019 (Community) :
 - https://visualstudio.microsoft.com/vs/
 
 - SQL Server 2017 (Developer) :
